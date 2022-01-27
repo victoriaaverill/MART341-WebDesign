@@ -1,5 +1,3 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+A directory is a structure used for organization pursposes. It organizes files to keep things efficient. Folders on a computer are a great example of a directory.
+VCS are useful for many reasons. They track changes, allow developers/writers to revert back and make changes. If changes don't work, they can revert to a previous version that did and work from there. VCS also allows people to share an collaborate on projects in an efficient way where everyone can see all changes made by each other.
+My favorite artistic medium is photography. I really enjoy taking things that are tangible that people see every day and capturing them in a way where they are actually noticed. I think everything has artistic value, and photography is a great way to showcase that when you have the right eye for it! 
