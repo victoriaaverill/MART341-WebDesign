@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>
+        Elkhorn Veterinary Services
+    </title>
+    <!-- Character set: -->
+    <meta charset="UTF-8">
+    <!-- Page description: -->
+    <meta name="description" content="Contact page for Elkhorn Veterinary Services">
+    <!-- Author info: -->
+    <meta name="author" content="Victoria Averill">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body { background-color: #C1EAC0 }
+    </style>
+</head>
+
+<body>
+    <img src="images/cat.jpg" width="600" alt="Cat Hero Shot" title="Elkhorn Veterinary Services" />
+   <h1>
+        Contact Us!
+    </h1>
+    <address>
+        Elkhorn Veterinary Services<br />
+        8005 Made Up Address Rd<br />
+        Jefferson City, MT 59638<br />
+        <br>
+        Phone: (406) 444-3926<br />
+        Fax: (406) 444-3275<br />
+    </address>
+    <p><a href="mailto:contact@elkhornvetservices.com">Email us</a></p>
+    <p>
+        <!-- hours of operation -->
+        <table>
+            <tr>
+                <th>We are open:</th>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>
+                  <b>Closed</b>
+                </td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>
+                  <b>Closed</b>
+                </td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>
+                  <b>7 am - 6 pm</b>
+                </td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>
+                  <b>7 am - 6 pm</b>
+                </td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>
+                  <b>7 am - 6 pm</b>
+                </td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>
+                  <b>7 am - 6 pm</b>
+                </td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>
+                  <b>7 am - 6 pm</b>
+                </td>
+            </tr>
+
+        </table>
+    </p>
+    <h2>
+      Let us know how we are doing. Submit a review down below!
+    </h2>
+
+    <!-- contact form -->
+    <form method="POST" action="index.html">
+             Name:<br/>
+             <input type="text" id="name" placeholder="Name" autofocus>
+             <br> </br>
+             <h3>
+             On a scale of 1 (worst) - 5 (best), how was your experience?
+             </h3>
+             <p>
+             <input type="radio" name="review" id="review" value="5"> 5
+             <br></br>
+             <input type="radio" name="review" id="review" value="4"> 4
+             <br></br>
+             <input type="radio" name="review" id="review" value="3"> 3
+             <br></br>
+             <input type="radio" name="review" id="review" value="2"> 2
+             <br></br>
+             <input type="radio" name="review" id="review" value="1"> 1
+             <br />
+             <br/>
+             Comments (We would love to hear how we can improve!)
+             <br/>
+             <br/>
+             <textarea name="comments" id="comments" rows="10" cols="80"></textarea>
+             <br/>
+             <br/>
+             </p>
+     <input type="submit" name="Submit" value="Submit" >
+    </form>
+</body>
+
+</html>
