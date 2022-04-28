@@ -1,0 +1,59 @@
+body {
+  background-color: #384340;
+  font-family: monaco;
+  text-align: center;
+}
+
+div{
+  border: 5px solid #DCEFED;
+  display: inline-block;
+  border: 5px solid #AC600C;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid #AC600C;
+}
+
+.product {
+  background-color: #DCEFED;
+  height: 650px;
+  width: 1200px;
+  display: inline-block;
+}
+
+#title {
+  font-size: 35px;
+  background-color: #DCEFED;
+  color: #053B46;
+  width: 600px;
+}
+.palette {
+  background-color: #AC600C;
+  border: 12px solid #AC600C;
+  width: 500px;
+}
+.dot {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.one {
+  background-color:#384340;
+}
+
+.dot.two {
+  background-color:#DCEFED;
+}
+
+.dot.three{
+  background-color: #053B46;
+}
+
+.accent{
+  background-color:#DCEFED;
+  border:12px solid #DCEFED;
+  width:60px;
+}

@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'CatCafe';
+  src: url('../fonts/CatCafe.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Timeless';
+  src: url('../fonts/Timeless.ttf') format('truetype');
+  font-style: normal
+}

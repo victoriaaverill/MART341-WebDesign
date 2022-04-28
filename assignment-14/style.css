@@ -1,0 +1,43 @@
+body {
+  background-color: #B89191;
+  font-family: CatCafe;
+  text-align: center;
+}
+
+div.title{
+  border: 10px solid #DCEFED;
+  display: inline-block;
+}
+
+.portrait {
+  background-color: #DCEFED;
+  height: 750px;
+  width: 90%;
+  display: inline-block;
+}
+
+#title:hover {
+  color: #DCEFED;
+}
+#subtitle:hover {
+  letter-spacing: 0.5em;
+}
+p.p2::first-line {
+    color: #CB518C;
+    text-align: center;
+}
+p.p2 {
+  font-family: Timeless;
+  width: 600px;
+  text-align: center;
+}
+.title {
+  font-size: 25px;
+  background-color: #DCEFED;
+  color: #053B46;
+  width: 600px;
+}
+.center {
+  display: inline-block;
+  margin: auto;
+}
