@@ -1,0 +1,1 @@
+This class has been incredible! For my final site after our workshopping, I went back in to make my photos smaller so that my page will load more efficiently. It was well worth it as an efficient website makes a huge difference in the professionalism of it. I also rearranged my "About" page because the composition was a little funky in my second draft. 

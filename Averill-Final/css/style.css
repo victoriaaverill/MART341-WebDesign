@@ -1,0 +1,116 @@
+body {
+  background-color: #134f5c;
+  font-family: CatCafe;
+  text-align: center;
+}
+
+div.title{
+  border: 10px solid #DCEFED;
+  display: inline-block;
+}
+
+.portrait {
+  background-color: #DCEFED;
+  height: 750px;
+  width: 90%;
+  display: inline-block;
+}
+
+#title:hover {
+  color: #DCEFED;
+}
+#subtitle:hover {
+  letter-spacing: 0.5em;
+}
+p.p2::first-line {
+    color: #CB518C;
+    text-align: center;
+}
+p.p2 {
+  font-family: Timeless;
+  width: 600px;
+  text-align: center;
+}
+.title {
+  font-size: 25px;
+  background-color: #DCEFED;
+  color: #053B46;
+  width: 600px;
+}
+.center {
+  display: inline-block;
+  margin: auto;
+}
+
+#first-bar {
+  margin-top: 4em;
+  padding: 1em;
+}
+
+/* MENU */
+header {
+  position: fixed;
+  background-color: #fff;
+  width: 99%;
+  height: 100px;
+  top: 0px;
+  font-family: Timeless;
+  }
+.site-name {
+  padding-top: 15px;
+}
+/* Set the Layout of the menu*/
+.menu-item {
+  display: inline-block;
+  margin: 1em .2em;
+  background-color:#E9EAE9;
+  padding: 0.5em;
+  border-radius: 1em;
+  min-width: 3em;
+  text-align: center;
+}
+
+.menu-item:hover{
+  background-color: #CB518C;
+}
+
+/* Styling my links */
+.menu-item a {
+  color: #053B46;
+  text-decoration: none;
+}
+
+/* Dropdown */
+.dropdown{
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin: 0.5em 0 0 -1em;
+  color: #053B46;
+  background-color: #CB518C;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #053B46;
+}
+/* styling dropdown-item display*/
+.dropdown-item {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+  background-color:#E9EAE9;
+  color:#CB518C;
+}
+
+.dropdown:hover {
+  border-radius: 1em 1em 0em 0em;
+}
